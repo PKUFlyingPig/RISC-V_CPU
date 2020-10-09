@@ -119,7 +119,7 @@ def main(asm_file_paths, num_cycles):
       ROM[2].text = "addr/data: 14 32\n" + rom_instructions
 
       constant = circuit.find("./comp/[@name='Constant']")
-      constant[1].attrib["val"] = hex(test_num_cycles)
+      constant[0].attrib["val"] = hex(test_num_cycles)
 
       test_harness_lib = root.find("./lib/[@desc='file#test_harness.circ']")
       test_harness_lib.attrib["desc"] = "file#../../../harnesses/test_harness.circ"
