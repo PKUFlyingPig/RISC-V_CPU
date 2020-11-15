@@ -602,6 +602,7 @@ end TCL_Generic;
     <comp lib="0" loc="(740,820)" name="Bit Extender">
       <a name="in_width" val="5"/>
       <a name="out_width" val="32"/>
+      <a name="type" val="zero"/>
     </comp>
     <comp lib="0" loc="(770,680)" name="Tunnel">
       <a name="label" val="imm_UJ"/>
