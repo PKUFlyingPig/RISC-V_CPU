@@ -986,7 +986,7 @@ end TCL_Generic;
     </comp>
     <comp lib="8" loc="(777,452)" name="Text">
       <a name="font" val="SansSerif bold 22"/>
-      <a name="text" val="Docode"/>
+      <a name="text" val="Decode"/>
     </comp>
     <comp lib="8" loc="(973,358)" name="Text">
       <a name="font" val="SansSerif plain 22"/>
